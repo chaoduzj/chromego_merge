@@ -105,7 +105,7 @@
         "🇺🇸 United States_vless_1",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
-        "🇺🇸 United States_hy2_8",
+        "🇺🇸 United States_vless_8",
         "🇹🇼 Taiwan_hy_9",
         "🇫🇷 France_hysteria_0",
         "🇺🇸 United States_hysteria_1",
@@ -301,7 +301,7 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 United States_vless_1",
-        "🇺🇸 United States_hy2_8",
+        "🇺🇸 United States_vless_8",
         "🇺🇸 United States_hysteria_1",
         "🇺🇸 United States_hysteria_3",
         "🇺🇸 United States_hysteria2_1",
@@ -345,7 +345,7 @@
         "🇺🇸 United States_vless_1",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
-        "🇺🇸 United States_hy2_8",
+        "🇺🇸 United States_vless_8",
         "🇹🇼 Taiwan_hy_9",
         "🇫🇷 France_hysteria_0",
         "🇺🇸 United States_hysteria_1",
@@ -431,23 +431,25 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hy2_8",
-      "type": "hysteria2",
-      "server": "45.150.165.84",
-      "server_port": 8881,
-      "password": "d017e316-82cb-441c-8eea-7b5e9de64a20",
-      "up_mbps": 10,
-      "down_mbps": 100,
+      "tag": "🇺🇸 United States_vless_8",
+      "type": "vless",
+      "server": "45.145.72.212",
+      "server_port": 11223,
+      "uuid": "34d7aac1-fac7-4e17-b41e-5be028d286cd",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "d017e316-82cb-441c-8eea-7b5e9de64a20"
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u24pYS0RqtYk8NBqtg4NIHUZIA0HmwuYw2RBIyt0T0c"
+        }
       }
     },
     {
