@@ -102,7 +102,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 United States_vless_1",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
         "🇺🇸 United States_vless_8",
@@ -300,7 +299,6 @@
       "tag": "🇺🇸 美国节点",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_vless_1",
         "🇺🇸 United States_vless_8",
         "🇺🇸 United States_hysteria_1",
         "🇺🇸 United States_hysteria_3",
@@ -342,7 +340,6 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 United States_vless_1",
         "🇹🇼 Taiwan_hy_6",
         "🇫🇷 France_hy2_7",
         "🇺🇸 United States_vless_8",
@@ -373,28 +370,6 @@
     {
       "type": "block",
       "tag": "block"
-    },
-    {
-      "tag": "🇺🇸 United States_vless_1",
-      "type": "vless",
-      "server": "64.31.55.42",
-      "server_port": 23514,
-      "uuid": "b17fa17d-13a0-4e8a-a398-8e549ea8b208",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ew6CB407JaI_WVD7QlD5QuvJTD7Pbv1oEbtis35-MRM"
-        }
-      }
     },
     {
       "tag": "🇹🇼 Taiwan_hy_6",
